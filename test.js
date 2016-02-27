@@ -30,7 +30,7 @@ test('cliches', function (t) {
         .process([
             'You can use cliches until the until the cows come home.',
             'Sorry to burst your bubble',
-            'but you will sound like a broken record.',
+            'but you will sound like a broken record.'
         ].join('\n'), function (err, file) {
             t.ifError(err, 'should not fail (#1)');
 

@@ -14,7 +14,6 @@
  * Dependencies.
  */
 
-var keys = require('object-keys');
 var difference = require('array-differ');
 var nlcstToString = require('nlcst-to-string');
 var quotation = require('quotation');
@@ -52,7 +51,7 @@ function attacher(processor, options) {
                 'end': match[match.length - 1].position.end
             });
 
-            message.cliche= phrase;
+            message.cliche = phrase;
             message.source = 'retext-cliche';
         });
     }
