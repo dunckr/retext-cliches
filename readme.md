@@ -1,4 +1,4 @@
-# retext-cliches [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# retext-cliches [![Build Status][travis-badge]][travis]
 
 Check phrases for cliches with [**retext**][retext].
 
@@ -38,7 +38,8 @@ Yields:
   1:31-1:55: Warning: “until the cows come home” is a cliche
   2:10-2:27: Warning: “burst your bubble” is a cliche
   3:27-3:40: Warning: “broken record” is a cliche
-  ⚠ 3 warnings
+
+⚠ 3 warnings
 ```
 
 ## API
@@ -58,17 +59,13 @@ Check phrases for cliches.
 
 ## License
 
-[MIT][license] © [Titus Wormer][author]
+[MIT][license] © [Duncan Beaton][author]
 
 <!-- Definitions -->
 
 [travis-badge]: https://img.shields.io/travis/dunckr/retext-cliches.svg
 
 [travis]: https://travis-ci.org/dunckr/retext-cliches
-
-[codecov-badge]: https://img.shields.io/codecov/c/github/dunckr/retext-cliches.svg
-
-[codecov]: https://codecov.io/github/dunckr/retext-cliches
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
