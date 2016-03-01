@@ -29,7 +29,7 @@
     "nlcst-search": "^1.0.0",
     "nlcst-to-string": "^1.1.0",
     "quotation": "^1.0.0",
-    "no-cliches": "dunckr/no-cliches#db/export-list"
+    "no-cliches": "dunckr/no-cliches"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
